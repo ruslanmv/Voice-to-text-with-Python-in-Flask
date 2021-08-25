@@ -37,7 +37,7 @@ jobs:
           command: |
             . venv/bin/activate
             export PYTHONPATH="."
-            pytest tests
+            pytest app.py
       - store_artifacts:
           path: test-reports
           destination: test-reports

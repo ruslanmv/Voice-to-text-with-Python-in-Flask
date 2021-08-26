@@ -123,6 +123,10 @@ python-3.7.11
 
 In this step you’ll install the Heroku Command Line Interface (CLI). You use the CLI to manage and scale your applications, provision add-ons, view your application logs, and run your application locally.
 
+To record the audio I have used a simple HTML/JS demo that uses [WebAudioRecorder.js](https://github.com/higuma/web-audio-recorder-js) to record wav  a web page.
+
+
+
 #### Install the Heroku CLI
 
 Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line).
@@ -211,5 +215,11 @@ Step 4 press transcribe button and you see the results
 
 ![](./assets/images/posts/README/4aa.jpg)
 
+You can try:
 
+[https://voicetotext-ruslanmv.herokuapp.com/](https://voicetotext-ruslanmv.herokuapp.com/)
+
+
+
+**Congratulation!** You were able to create a web app that can convert your audio to text
 
